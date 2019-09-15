@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class DigitalHouseManager {
 
@@ -94,6 +95,7 @@ public class DigitalHouseManager {
             Inscripcion unaInscripcion = new Inscripcion(alummnoBuscado, cursoBuscado);
             listaDeInscripciones.add(unaInscripcion);
             System.out.println("Inscripcion Realizada");
+
             return;
         } else {
             System.out.println("Inscripcion no pudo ser realizada");

@@ -1,11 +1,14 @@
 package com.company;
 
+import java.util.List;
+
 public class Alumno {
 
     //atributos
     private String nombre;
     private String apellido;
     private Integer codigoDeAlumno;
+    List <Curso> listaDeCursosInscriptos;
 
     //Constructor
     public Alumno(String nombre, String apellido, Integer codigoDeAlumno) {
@@ -24,6 +27,7 @@ public class Alumno {
     public Integer getCodigoDeAlumno() {
         return codigoDeAlumno;
     }
-
-
+    public List<Curso> getListaDeCursosInscriptos() {
+        return listaDeCursosInscriptos;
+    }
 }

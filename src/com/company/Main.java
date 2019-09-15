@@ -31,6 +31,14 @@ public class Main {
         DHM.bajaProfesor(1234);
         //9. Dar de baja un curso.
         DHM.bajaCurso(20001);
+        //10
+        //¿Cómo modificaría el diagrama de clases para que se le pueda consultar a un alumno a qué
+        //cursos está inscripto?
+
+        //En la clase Alumno crearia el array cursosInscriptos para que cada vez que se ejecute
+        //el metodo inscribirAlumno ademas de agregar el Alumno al Curso tmb se agregue el curso a un array dentro
+        // del alumno. Luego crearia el metodo consultarInscripciones que recibiria un Integer codigoAlumno
+        // y luego de encontrar el alumno devolveria el contenido de este array con cursos
 
     }
 }
