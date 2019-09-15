@@ -23,6 +23,23 @@ public class Curso {
 
     }
 
+    //Agregar y Eliminar alumno
+    public Boolean agregarUnAlumno(Alumno unAlumno) {
+
+        if (listaDeAlumnos.size() < cupoMaximo) {
+            listaDeAlumnos.add(unAlumno);
+            System.out.println("Alumno agregado correctamente");
+            return true;
+        } else {
+            System.out.println("Alumno no pudo ser agregado");
+            return false;
+        }
+    }
+    public void eliminarAlumno (Alumno unAlumno){
+        listaDeAlumnos.remove(unAlumno);
+    }
+
+
     //Getter
     public String getNombre() {
         return nombre;

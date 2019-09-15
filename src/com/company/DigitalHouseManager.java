@@ -17,7 +17,7 @@ public class DigitalHouseManager {
         listaDeInscripciones = new ArrayList<>();
     }
 
-    
+
     //Getter
     public List<Alumno> getListaDeAlumnosDH() {
         return listaDeAlumnosDH;
