@@ -27,7 +27,7 @@ public class DigitalHouseManager {
             }
         }
         listaDeCursos.add(unCurso);
-        System.out.println("Curso Agregada Correctamente");
+        System.out.println("Curso agregado Correctamente");
     }
     public void altaProfesorAdjunto(String nombre, String apellido, Integer codigoProfesor, Integer cantidadDeHoras) {
 
