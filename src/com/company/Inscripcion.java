@@ -7,10 +7,10 @@ public class Inscripcion {
     private Curso unCurso;
     private Date fechaDelDia;
 
-    public Inscripcion(Alumno unAlumno, Curso unCurso, Date fechaDelDia) {
+    public Inscripcion(Alumno unAlumno, Curso unCurso) {
         this.unAlumno = unAlumno;
         this.unCurso = unCurso;
-        this.fechaDelDia = new Date();
+        fechaDelDia = new Date();
     }
 
     //Getter
