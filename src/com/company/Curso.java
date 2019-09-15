@@ -13,7 +13,7 @@ public class Curso {
     List<Alumno> listaDeAlumnos;
 
     //Constructor
-    public Curso(String nombre, Integer codigoDeCurso, ProfesorTitular unTitular, ProfesorAdjunto unAdjunto, Integer cupoMaximo) {
+    public Curso(String nombre, Integer codigoDeCurso, Integer cupoMaximo) {
         this.nombre = nombre;
         this.codigoDeCurso = codigoDeCurso;
         this.unTitular = unTitular;
